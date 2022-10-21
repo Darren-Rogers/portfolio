@@ -1,8 +1,54 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .solar{
   height: 150px;
   width: 250px;
   margin: 3px;
+  outline: 4px solid blue;
 }
 .contact{
   margin: 5px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer{
+  justify-content: center;
+  align-content: flex-start;
+}
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 3px lightblue;
+  align-items: center;
+  background-color: lightblue;
+}
+#solar{
+  height: 150px;
+  width: 250px;
+  margin: 5px;
+}
+.resumeFont{
+  font-size: 35px;
+}
+.aboutFont{
+  font-size: 20px;
+}
+.nav{
+  width: 100%;
+  background-color: lightgray;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  background-color: lightgray;
+  margin: 3px lightgray;
+}
+.myName{
+ font-size: 30px;
 }

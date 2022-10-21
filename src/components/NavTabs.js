@@ -30,6 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li className="navbar-nav ms-auto myName">Darren Rogers</li>
     </ul>
   );
 }
