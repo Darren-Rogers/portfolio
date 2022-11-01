@@ -3,6 +3,7 @@ import Horiseon from "../../images/Horiseon-Search-Optimazation.png"
 import Solar from "../../images/Solar-Clicker.png"
 import Poke from "../../images/Pokemon-Giphy.png"
 import Weather from "../../images/Weather-Forecast.png"
+import Blog from "../../images/Pizza-Network.png"
 
 export default function Projects() {
   return (
@@ -36,7 +37,14 @@ export default function Projects() {
               <img src={Weather} alt="Weather Forecast" className='solar'></img>
             </a>
           </div>
-          <p className='col-sm-12 col-md-12 col-lg-9 align-self-center'>This website uses the Open Weather API to search for a single day and five day weather forecast. Temperature, humidity, wind speed and UV index are presented on today's forecast. The Open Weather API searches cities all across the world! An Icon is displayed that indicated the predicted weather.    </p>
+          <p className='col-sm-12 col-md-12 col-lg-9 align-self-center'>This website uses the Open Weather API to search for a single day and five day weather forecast. Temperature, humidity, wind speed and UV index are presented on today's forecast. The Open Weather API searches cities all across the world! An Icon is displayed that indicated the predicted weather.
+          </p>
+          <div className=' col-sm-12 col-md-12 col-lg-3'>
+            <a href="https://rocky-fortress-46351.herokuapp.com/" >
+              <img src={Blog} alt="Horiseon Search Optimazation" className='solar'></img>
+            </a>
+          </div>
+          <p className='col-sm-12 col-md-12 col-lg-9 align-self-center'>This website is a blog that allows users to make post with a title and body element.  Users then see their post displayed on the homescreen.</p>
           <a href='https://docs.google.com/document/d/1RsOhq_OF4wtdrikYCVKjC9Kudua_WgHxjAxet3d8IPg/edit'>
             <p className='text-center m-3 resumeFont'> My Resume</p>
           </a>
